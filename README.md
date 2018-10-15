@@ -26,7 +26,7 @@ or you can just put it into a helper function to make it easier
 or using callback
 ```php
   $route->get('/users/:id', function($id){
-    echo $id;
+    view('users/index', ['id' => $id]);
   })
   ```
 Still working on other methods like post, put and delete

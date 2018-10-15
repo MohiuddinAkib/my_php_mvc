@@ -11,3 +11,10 @@
   DB_PASS=  your db password
   DB_NAME=  your db name
 ```
+#make your own helper functions at app/helpers/helpers.php file.
+
+#views should go to app/views directory. You have to put .view.php extension. To get included file from inc folder:
+```php
+  <?php echo include_once APP_URL . '/views/inc/header.view.php' ?>
+```
+

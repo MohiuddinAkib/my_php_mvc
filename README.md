@@ -17,4 +17,6 @@
 ```php
   <?php echo include_once APP_URL . '/views/inc/header.view.php' ?>
 ```
+or you can just put it into a helper function to make it easier
 
+##Routes

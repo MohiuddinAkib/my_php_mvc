@@ -19,4 +19,15 @@
 ```
 or you can just put it into a helper function to make it easier
 
-##Routes
+#Routes: define routes in app/routes.php file 
+```php
+  $route->get('/users', 'UserController@index');
+ ```
+or using callback
+```php
+  $route->get('/users/:id', function($id){
+    echo $id;
+  })
+  ```
+Still working on other methods like post, put and delete
+  
